@@ -160,4 +160,44 @@ body {
 }
 #login-button:hover {
   background-color: #8880feb2;
+}
+
+@media (max-width: 1400px) {
+  .background-decoration img {
+    height: 50rem;
+  }
+  .background-decoration .circle {
+    -webkit-clip-path: circle(38% at 102% 85%);
+            clip-path: circle(38% at 102% 85%);
+  }
+}
+@media (max-width: 1124px) {
+  html {
+    font-size: 60%;
+  }
+
+  .background-decoration img {
+    height: 45rem;
+  }
+}
+@media (max-width: 768px), (max-height: 1024px) {
+  .login-area {
+    padding-bottom: 256px;
+    margin-left: 64px;
+  }
+}
+@media (max-width: 414px) {
+  html {
+    font-size: 63.3%;
+  }
+
+  .login-area {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+  }
+
+  .background-decoration {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
